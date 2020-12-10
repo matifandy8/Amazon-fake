@@ -1,7 +1,10 @@
 import React, { useEffect, useRef } from "react";
+import { getBasketTotal } from "./reducer";
+import { useStateValue } from "./StateProvider";
 
 function PayPal() {
   const paypal = useRef();
+  const [{ basket, user }, dispatch] = useStateValue();
 
   useEffect(() => {
     window.paypal
@@ -14,7 +17,7 @@ function PayPal() {
                 description: "Cool looking table",
                 amount: {
                   currency_code: "USD",
-                  value: 650.0,
+                  value: getBasketTotal(basket),
                 },
               },
             ],

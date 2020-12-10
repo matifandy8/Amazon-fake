@@ -15,27 +15,27 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
+            title="ASUS TUF Gaming VG27WQ1B 27 Monitor"
+            price={300.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC_SX679_.jpg"
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            title="Acer Nitro 5 - Gaming Laptop, Intel Core i5-9300H, 9ª generación, NVIDIA GeForce GTX"
+            price={739.0}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/71s1LRpaprL._AC_SX679_.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
+            title="BENGOO G9000 Headphones"
+            price={37.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/61NZPCYSeVL._AC_SX425_.jpg"
           />
           <Product
             id="23445930"
